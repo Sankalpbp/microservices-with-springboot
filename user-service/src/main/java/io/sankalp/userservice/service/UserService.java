@@ -21,7 +21,7 @@ public class UserService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private final static String DEPARTMENT_SERVICE_URL = "http://localhost:9001/departments/";
+    private final static String DEPARTMENT_SERVICE_URL = "http://DEPARTMENT-SERVICE/departments/";
 
     public User saveUser(User user) {
         log.info("Inside the saveUser method of UserService");
